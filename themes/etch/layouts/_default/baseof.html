@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        <div style="float:left;width:40%">
+        {{- partial "header.html" . -}}
+        <main id="content">
+        {{- block "main" . }}{{- end }}
+        </main>        
+    </div>
+    <div style="float:left;width:50%">
+        <img src="img/reid.jpeg" style="max-width:100%;margin-top:30px;margin-left:1rem;border:2px solid black" />
+    </div>
+    <div style="text-align:center">
+        <ul id="posts" style="display:inline-block;list-style-position:inside">
+                <li>
+                    <a href="https://caesuramag.org/posts/intimation-reid-kane-kotlas">Intimation.</a> 
+                    <a href="https://caesuramag.org/"><i>Caesura Magazine.</i></a>  
+                    <small>March 10, 2021</small>
+                </li>
+                <li>
+                    <a href="https://vimeo.com/470333117#t=978s">The Only Conservative Force.</a>
+                    <a href="https://s-usih.org/2020/09/usih2020-program-revolution-reform/"><i>Society for US Intellectual History <br>2020 Conference &mdash; Reform & Revolution.</i></a>  
+                    <small>October 19, 2020</small>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=3TWbBzUydxk">The Fate of the American Revolution, a panel discussion.</a>
+                    <a href="https://platypus1917.org/2020/10/01/the-fate-of-the-american-revolution/">(Transcript.)</a>
+                    <br><a href="http://platypus1917.org/2020/06/06/the-legacy-of-the-american-revolution-a-platypus-lecture-series/">The Legacy of the American Revolution, a Platypus Lecture Series.</a>
+                    <small>July 31, 2020</small>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=tyTy19Y1Lmo">The American Communists and the Legacy of the Revolution.</a>
+                    <br><a href="http://platypus1917.org/2020/06/06/the-legacy-of-the-american-revolution-a-platypus-lecture-series/">The Legacy of the American Revolution, a Platypus Lecture Series.</a>
+                    <small>July 24, 2020</small>
+                </li>
+                <li>
+                    <a href="https://platypus1917.org/2018/10/01/would-eugene-debs-support-socialists-running-as-democrats-sanders-shachtmanism-and-the-death-of-the-debs-legacy/">Would Eugene Debs support socialists running as Democrats? Sanders, Shachtmanism, and the death of the Debs legacy. 
+                    <a href="http://platypus1917.org/category/pr/issue-110/"><i>Platypus Review</i> #110.</a>
+                    <small>October 2018</small>
+                </li>
+                <li>
+                    <a href="https://socialistmag.us/2020/11/socialism-or-extinction/">Socialism or Extinction? 
+                    <a href="https://socialistmag.us/"><i>The Socialist.</i></a>
+                    <small>August 13, 2018</small>
+                </li>
+                <li>
+                    Panelist on <a href="https://soundcloud.com/platypus-affiliated-society"><i>Sh*t Platypus Says</i></a>, <a href="https://soundcloud.com/platypus-affiliated-society/ep3">Ep. 3: What do the socialists want anyway?</a>
+                    <small>December 25, 2017</small>
+                </li>
+                <li>
+                    <a href="https://platypus1917.org/2016/10/06/future-instead-past-bookchin-marx/">“The future instead of the past”? Bookchin and Marx. 
+                    <a href="http://platypus1917.org/category/pr/issue-90"><i>Platypus Review</i> #90.</a>
+                    <small>October 2016</small>
+                </li>
+                <li>
+                    <a href="https://www.metamute.org/editorial/your-posts/against-accelerationism-%E2%80%93-marxism">Against Accelerationism&mdash;For Marxism. 
+                    <a href="https://www.metamute.org/"><i>Mute Magainze.</i></a>
+                    <small>July 23, 2015</small>
+                </li>
+
+            </ul>
+            
+    </div>
+    {{- partial "footer.html" . -}}
+    </body>
+</html>

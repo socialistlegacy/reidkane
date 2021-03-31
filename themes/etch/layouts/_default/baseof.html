@@ -2,17 +2,17 @@
 <html>
     {{- partial "head.html" . -}}
     <body>
-        <div style="float:left;width:40%">
+        <div style="float:left;width:40%;margin-right:1rem">
         {{- partial "header.html" . -}}
         <main id="content">
         {{- block "main" . }}{{- end }}
         </main>        
     </div>
-    <div style="float:left;width:50%">
-        <img src="img/reid.jpeg" style="max-width:100%;margin-top:30px;margin-left:1rem;border:2px solid black" />
+    <div style="float:left;width:50%;display:flex;justify-content:center;align-items:center;height:350px;margin-left:1rem">
+        <img src="img/reid.jpeg" style="max-width:100%;border:2px solid black" />
     </div>
     <div style="text-align:center">
-        <ul id="posts" style="display:inline-block;list-style-position:inside">
+        <ul id="posts" style="display:inline-block;list-style-position:inside;padding-left:0">
                 <li>
                     <a href="https://caesuramag.org/posts/intimation-reid-kane-kotlas">Intimation.</a> 
                     <a href="https://caesuramag.org/"><i>Caesura Magazine.</i></a>  

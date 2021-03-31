@@ -7,10 +7,12 @@ draft: false
 *[email](mailto:rkotlas@gmail.com)*
 
 **[The Socialist Legacy](https://www.socialistlegacy.com/)**  
+*founding editor*
 
+**[Aural Burn Rim](https://auralburnrim.com/)**  
+*poetry*
 
-*poetry*: **[Aural Burn Rim](https://auralburnrim.com/)**
-
-*music*: **[R. Kane](https://soundcloud.com/rkanemusic)**
+**[R. Kane](https://soundcloud.com/rkanemusic)**  
+*music*
 
 **[Medium](https://medium.com/@reidkane)**
